@@ -1,0 +1,82 @@
+
+.signup-card{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.usertypes-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .usertypes {
+    flex: 1;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .usertypes input[type="radio"] {
+    display: none; 
+  }
+  
+  .usertypes input[type="radio"]:checked + label {
+    background-color: rgb(119, 88, 255);
+    box-shadow: rgba(76, 0, 255, 0.774) 0px 25px 20px -20px;
+    color:white;
+    width: 100%; 
+    text-align: center;
+    padding: 10px; 
+    border-radius: 5px; 
+    display: block; 
+    cursor: pointer; 
+  }
+  
+  .usertypes label {
+    width: 100%; 
+    text-align: center;
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+
+
+
+.inpt input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.137);
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+
+.inpt  input:hover{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.781);
+  transition: border-bottom-color 0.3s ease-in-out;
+}
+.inpt input:focus {
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, #334fff, #592bff);
+  border-image-slice: 1;
+  outline: none; 
+}
+
+
+  .inbtn  button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+  }
+  
+ .inbtn  button[type="submit"]:hover {
+    background-color: #28a745; 
+    transform: scale(1.05);
+  }
+  
+.inbtn button[type="submit"]:active {
+    background-color: #218838; 
+  }
+  
+  

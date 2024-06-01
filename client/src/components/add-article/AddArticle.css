@@ -1,0 +1,65 @@
+
+.addarticle .container {
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(34, 0, 255, 0.2), 0 6px 20px 0 rgba(13, 0, 255, 0.19);
+  }
+  
+.addarticle  .card {
+    border-radius: 10px;
+  }
+  
+.addarticle  .card-title {
+    background: rgb(51,79,255);
+    background: linear-gradient(149deg, rgba(51,79,255,0.7484243697478992) 0%, rgba(89,43,255,0.7456232492997199) 100%);
+    color: white;
+    border-radius: 10px 10px 0 0;
+  }
+  
+.addarticle  .card-body {
+    background-color: #f8f9fa; 
+  }
+  
+.addarticle  .form-control:focus,
+ .form-select:focus,
+  textarea:focus {
+    border-color: #8c00ff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(81, 0, 255, 0.25);
+  }
+  
+.addarticle  button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+  }
+  
+.addarticle button[type="submit"]:hover {
+    background-color: #28a745; 
+    transform: scale(1.05);
+  }
+  
+.addarticle button[type="submit"]:active {
+    background-color: #218838; 
+  }
+  
+  
+.addarticle select option[disabled] {
+    display: none;
+  }
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+.addarticle .form-control,
+  .form-select,
+  textarea {
+    animation: fadeIn 0.5s ease-in-out;
+}

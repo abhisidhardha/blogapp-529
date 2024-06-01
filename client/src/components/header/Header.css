@@ -1,0 +1,21 @@
+.header {
+    color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.404);
+}
+.header .navbar-brand{
+    padding: 20px 5px;
+}
+.header .nav-link:hover{
+    scale: 1.03;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.header .nav-link{
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+.header .navbar{
+    backdrop-filter: blur(10px); 
+    background: rgba(64, 0, 255, 0.728);
+}

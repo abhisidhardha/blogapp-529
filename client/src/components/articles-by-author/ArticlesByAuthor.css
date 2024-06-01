@@ -1,0 +1,6 @@
+.articlesba .card {
+    background: linear-gradient(149deg, rgba(0, 162, 255, 0.297) 0%, rgba(0, 119, 255, 0.297) 100%);
+}
+.articlesba .card:hover{
+    scale: 1.03;
+}

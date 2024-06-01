@@ -1,0 +1,24 @@
+.footer{
+    background: rgb(167,65,255);
+    background: linear-gradient(90deg, rgba(167,65,255,1) 0%, rgba(65,48,255,1) 50%, rgba(0,134,255,1) 100%);
+    color: white;
+}
+.text-uppercase{
+    font-size: larger;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 334;
+}
+.footer a:hover{
+    color: #ffffff;
+}
+.icons li{
+    font-size: 30px;
+}
+.icons li:hover{
+    scale: 1.1;
+}
