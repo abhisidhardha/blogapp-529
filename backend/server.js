@@ -5,9 +5,8 @@ const mongoClient = require('mongodb').MongoClient;
 
 const path=require('path')
 
-//deploy react build in this server
 app.use(exp.static(path.join(__dirname,'../client/build')))
-//to parse the body of req
+
 app.use(exp.json())
 
 mongoClient.connect(process.env.DB_URL)
@@ -16,7 +15,7 @@ mongoClient.connect(process.env.DB_URL)
     const userscollection = blogdb.collection('userscollection')
     const articlescollection=blogdb.collection('articlescollection')
     const authorscollection=blogdb.collection('authorscollection')
-    //share colelction obj with express app
+
     app.set('userscollection',userscollection)
     app.set('articlescollection',articlescollection)
     app.set('authorscollection',authorscollection)
